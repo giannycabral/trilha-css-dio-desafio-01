@@ -5,20 +5,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trilha de CSS - DIO</title>
+
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <header class="banner">
-    <div class="banner-content">
-      <div class="logo">
-        <img src="assets/images/logo.png" title="Logotipo Trilha de CSS DIO" alt="Logotipo Trilha de CSS DIO">
+  <header>
+    <nav class="nav-bar">
+      <div class="Logo">
+          <h1>DIO</h1>
       </div>
-      <h1>Trilha de CSS da DIO</h1>
-      <p>A nova Trilha de CSS da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites profissionais.</p>
-      <button>Quero me inscrever</button>
+      <div class="nav-list">
+          <ul>
+              <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Cursos</a></li>
+              <li class="nav-item"><a href="#" class="nav-link"> Contato</a></li>
+          </ul>
+      </div>
+      <div class="login-button">
+          <button><a href="#">Entrar</a></button>
+      </div>
+    </nav>
+    <div class="banner">
+      <div class="banner-content">
+        <div class="logo">
+          <img src="assets/images/logo.png" title="Logotipo Trilha de CSS DIO" alt="Logotipo Trilha de CSS DIO">
+        </div>
+         <h1>Trilha de CSS da DIO</h1>
+         <p>A nova Trilha de CSS da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites profissionais.</p>
+          <a href="https://www.dio.me/technologies/css">
+            <button>Quero me inscrever</button>
+          </a>  
+      </div>
     </div>
   </header>
   <main>
-    <section id="course-content">
+      <section id="course-content">
       <h2>O que vou aprender?</h2>
       <p>
         Temos 3 módulos recheados de conteúdos do básico ao avançado para que você aprenda a 
@@ -50,7 +71,7 @@
       </p>
     </section>
   </main>
-  <footer>
+    <footer>
     <img class="dio-logo" src="assets/images/dio-logo.png" title="Logotipo DIO com o texto make the change" alt="Logotipo DIO com o texto make the change">
     <p>Acesse <a href="https://dio.me">dio.me</a> e se cadastre agora</p>
   </footer>
